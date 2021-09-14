@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: rgb(241, 241, 239);
+    height: 1800px;
+}
+
+header {
+    text-align: center;
+    background-color: darkred;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#listaJogos {
+    margin-top: 50px;
+    margin-left: 42%;
+    font-size: 24px;
+    
+}
+
+.games {
+    margin-left: 80px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: white;
+}
+
+
+p::first-letter{
+    color: cyan;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div:nth-child(odd) {
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+#jogo{
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+#jogo:focus {
+    background-color: darkred;
+}
+
+input:checked {
+    margin-left: 20px;
+  }
+
+#botoes {
+      margin-left: 45%;
+      margin-top: 10px;
+      padding: 30px;
+  }
+
+.botao {
+    padding: 5px 30px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+input:enabled {
+    background-color: blue;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> GOG - Good Old Games </h1>
+    </header>
+    
+    <section>
+        <ul id="listaJogos">
+           <a href="#morrowind"><li>TESIII: Morrowind</li></a>
+           <a href="#starcraft"><li>StarCraft</li></a>
+           <a href="#aoe2"><li>Age of Empires II</li></a>
+           <a href="#warcraft3"><li>Warcraft 3</li></a>
+           <a href="#chronotrigger"><li>Chrono Trigger</li></a>
+        </ul> 
+    </section>
+
+    <article>
+        <div class="games" id="morrowind">
+            <h2>The Elder Scrolls III: Morrowind </h2>
+            <p>The Elder Scrolls III: Morrowind é o terceiro jogo da série The Elder Scrolls. O jogo foi lançado exclusivamente para o Xbox e Windows PC em 1 de maio de 2002, foi desenvolvido pela Bethesda Game Studios e distribuído pela Bethesda Softworks. O jogo também foi lançado para Xbox One e Xbox 360 em 2018 via Retrocompatibilidade.[2]
+
+                O jogo vendeu mais de 4 milhões de cópias no mundo.[3] O jogo acontece na Ilha de Vvardenfell, um distrito na província de Dunmeri, em Morrowind. O jogo foi lançado em inglês, mas conta com uma tradução não oficial ao espanhol.
+                
+                Conta com duas expansões; a primeira é The Elder Scrolls III: Tribunal, que foi lançada em novembro de 2002, e a segunda é The Elder Scrolls III: Bloodmoon, lançada em 2003. Também existe um pack com o jogo e suas duas expansões, chamado Morrowind: Game of the Year Edition, em comemoração pelo prêmio que foi outorgado ao jogo, e que saiu ao mercado no dia 31 de outubro de 2003.</p>
+        </div>
+        <div class="games" id="starcraft">
+            <h2>StarCraft</h2>
+            <p>StarCraft é uma franquia de ficção científica militar criada por Chris Metzen e James Phinney, e de propriedade da Blizzard Entertainment. A série se foca na luta pela dominância galáctica entre três espécies - os adaptáveis e móveis Terrans, os insectoides Zergs, e os enigmáticos Protoss - em uma distante parte da Via láctea conhecida como Koprulu Sector, no início do 26° século. A série estreou com o jogo StarCraft em 1998. Desde então, ela cresceu e passou a incluir um número de outros jogos, assim como oito romantizações, dois artigos Amazing Stories, um jogo de tabuleiro, e outras mercadorias licenciadas, como estátuas colecionáveis e brinquedos.</p>
+        </div>
+        <div class="games" id="aoe2">
+            <h2>Age of Empires II</h2>
+            <p>Age of Empires II: The Age of Kings (frequentemente abreviado como The Age of Kings ou AoK) é um jogo eletrônico de estratégia em tempo real desenvolvido pela Ensemble Studios e publicado pela Microsoft. Lançado em 1999 para Microsoft Windows e Mac OS, é o segundo jogo da série Age of Empires. Uma expansão, intitulada The Conquerors, foi lançada em 2000. Uma versão para Playstation 2 foi lançada pela Konami em 2001, além de um spin-off para Nintendo DS, Age of Empires: The Age of Kings, que foi desenvolvido pela Backbone Entertainment em 2006.</p>
+        </div>
+        <div class="games" id="warcraft3">
+            <h2>Warcraft 3</h2>
+            <p>Warcraft III: Reign of Chaos (Warcraft: o Reinado do Caos), desenvolvido e lançado pela Blizzard Entertainment em 2002, e expandido em 2003 com Warcraft III: The Frozen Throne (Warcraft: o Trono de Gelo), é um jogo eletrônico de estratégia em tempo real com elementos de RPG, feito para PCs.
+
+                O Warcraft III apresentou uma mudança importante com relação às versões anteriores do jogo: unidades únicas, mais poderosas, chamadas "Heroes" (heróis). Um herói no jogo pode achar ou trocar itens mágicos para melhorar suas características e atributos, ao género dos RPGs. Os heróis podem também adquirir auras de proteção através de habilidades, que beneficiam unidades aliadas que estão próximas dele. Tal como nos RPGs, os heróis ganham experiência através de combate, subindo de nível, e desbloqueando novas habilidades ou melhorando aquelas que já possui.</p>
+        </div>
+        <div class="games" id="chronotrigger">
+            <h2>Chrono Trigger</h2>
+            <p>Chrono Trigger (クロノ・トリガー Kurono Torigā?) é um jogo de RPG eletrônico desenvolvido pela Square Co. Foi lançado para o console Super Nintendo no Japão em março de 1995, e uma versão aprimorada para PlayStation foi lançada em novembro de 1999. Uma outra versão do jogo para o console portátil Nintendo DS foi lançada em 25 de novembro de 2008 no Japão e um dia depois nos EUA.[18] O Chrono Trigger também foi portado para telefones celulares i-mode,[19] Virtual Console,[20] PlayStation Network,[21] dispositivos iOS,[22] dispositivos Android,[23] e Microsoft Windows.[24] O jogo foi revolucionário para a época e exige bastante do console, é considerado por muitos um dos melhores jogos já feitos na histórias dos games.</p>
+        </div>
+    </article>
+
+    <form action="">
+        <input type="text" name="jogo" id="jogo" placeholder="Digite seu GOG favorito">
+        <label for="tes3">TESIII:Morrowind</label>
+        <input type="checkbox" name="tes3" id="tes3"  >
+        <label for="Star">StarCraft</label>
+        <input type="checkbox" name="Star" id="Star">
+        <label for="Age2">Age of Empires II</label>
+        <input type="checkbox" name="Age2" id="Age2">
+        <label for="warcraft">WarCraft 3</label>
+        <input type="checkbox" name="warcraft" id="warcraft">
+        <label for="chrono">Chrono Trigger</label>
+        <input type="checkbox" name="chrono" id="chrono">
+
+        <div id="botoes">
+            <input type="reset" class="botao" enabled >
+            <input type="submit" value="Votar" class="botao" disabled>
+        </div>
+    </form>
+</body>
+</html>
