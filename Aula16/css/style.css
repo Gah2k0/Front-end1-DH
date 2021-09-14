@@ -17,7 +17,7 @@ h1 {
 
 #listaJogos {
     margin-top: 50px;
-    margin-left: 42%;
+    margin-left: 40%;
     font-size: 24px;
     
 }
@@ -25,6 +25,11 @@ h1 {
 .games {
     margin-left: 80px;
     padding: 10px;
+}
+
+.imagens {
+    padding: 20px;
+    margin-left: 25%;
 }
 
 li:hover {
@@ -38,7 +43,7 @@ p::first-letter{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div:nth-child(odd) {
+.games:nth-child(odd) {
     background-color: darkred;
     border-radius: 10px;
 }
@@ -54,6 +59,7 @@ div:nth-child(odd) {
 
 input:checked {
     margin-left: 20px;
+    
   }
 
 #botoes {
@@ -74,5 +80,9 @@ input:disabled {
 }
 
 input:enabled {
-    background-color: blue;
+    background-color: cyan;
+}
+
+form, h2 {
+    display: inline;
 }
