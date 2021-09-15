@@ -1,0 +1,40 @@
+
+div {
+    margin: 100px;
+}
+
+
+button {
+    margin-top: 50px;
+    margin-left: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #eaeaea;
+    color:#000;
+    transition: 
+    background-color, 0.5s
+    color, 0.5s;
+}
+
+button:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+#bola:hover{
+    animation: bola 3s infinite;
+}
+
+@keyframes bola {
+   0% {opacity: 0%;} 
+   50% { transform: translateX(300px); opacity: 50%;}
+   100% { opacity: 0%;}
+}
+
+#foguete {
+    margin-left: 100px;
+}
+
+#foguete:hover {
+    transform: skew(15deg) scale(2);
+}
