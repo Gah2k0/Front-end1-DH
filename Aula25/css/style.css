@@ -1,0 +1,15 @@
+.navbar-cyan {
+    background-color: cyan;
+}
+
+.navbar {
+    height: 15vh;
+}
+
+.banner {
+    height: 85vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
